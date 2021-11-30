@@ -1,14 +1,14 @@
 {
-  "name": "crosswise-toolkit",
+  "name": "safetoken-toolkit",
   "version": "1.0.0",
-  "description": "Crosswise frontend packages",
+  "description": "safetoken frontend packages",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crosswise-finance/crosswise-toolkit.git"
+    "url": "git+https://github.com/devstar20/uikit.git"
   },
   "license": "ISC",
   "bugs": {
