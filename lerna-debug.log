@@ -1,0 +1,1110 @@
+48 error Error: Command failed with exit code 1: git commit -F C:\Users\KOA\AppData\Local\Temp\24e4b2df-af8b-4579-831b-951519663309\lerna-commit.txt
+48 error husky > pre-commit (node v15.11.0)
+48 error $ lerna run format:check
+48 error lerna notice cli v4.0.0
+48 error lerna info versioning independent
+48 error lerna info Executing command in 1 package: "yarn run format:check"
+48 error lerna ERR! yarn run format:check exited 1 in 'crosswise-uikit'
+48 error lerna ERR! yarn run format:check stdout:
+48 error $ prettier --check --loglevel debug "src/**/*.{js,jsx,ts,tsx}"
+48 error Checking formatting...
+48 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+48 error lerna ERR! yarn run format:check stderr:
+48 error [debug] normalized argv: {"_":["src/**/*.{js,jsx,ts,tsx}"],"check":true,"color":true,"editorconfig":true,"loglevel":"debug","config-precedence":"cli-override","debug-repeat":0,"ignore-path":".prettierignore","plugin":[],"plugin-search-dir":[]}
+48 error [debug] resolve config from 'src\__tests__\components\alert.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\balanceinput.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\breadcrumbs.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\button.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\buttonmenu.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\card.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\checkbox.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\crosswisetoggle.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\dropdown.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\fallingbunnies.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\flex.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\heading.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\input.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\layouts.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\link.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\notificationdot.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\overlay.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\progress.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\radio.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\skeleton.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\spinner.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\svg.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\tabmenu.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\tag.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\text.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\components\toggle.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\widgets\menu.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\widgets\modal.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\__tests__\widgets\walletModal.test.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Alert\Alert.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Alert\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Alert\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Alert\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Alert\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\BalanceInput\BalanceInput.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\BalanceInput\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\BalanceInput\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\BalanceInput\styles.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\BalanceInput\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Box\Box.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Box\Flex.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Box\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Box\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Box\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Breadcrumbs\Breadcrumbs.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Breadcrumbs\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Breadcrumbs\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Breadcrumbs\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Button\Button.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Button\ExpandableButton.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Button\IconButton.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Button\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Button\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Button\StyledButton.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Button\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\components\Button\theme.ts
+48 error [debug] resolve config from 'src\components\Button\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\ButtonMenu\ButtonMenu.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\ButtonMenu\ButtonMenuItem.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\ButtonMenu\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\ButtonMenu\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\ButtonMenu\StyledButtonMenu.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\ButtonMenu\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\Card.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\CardBody.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\CardFooter.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\CardHeader.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\CardRibbon.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\StyledCard.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Card\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Checkbox\Checkbox.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Checkbox\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Checkbox\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Checkbox\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\CrosswiseToggle\CrosswiseToggle.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\CrosswiseToggle\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\CrosswiseToggle\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\CrosswiseToggle\StyledCrosswiseToggle.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\CrosswiseToggle\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\CrosswiseToggle\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Dropdown\Dropdown.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\components\Dropdown\Dropdown.tsx
+48 error [debug] resolve config from 'src\components\Dropdown\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Dropdown\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Dropdown\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\FallingBunnies\FallingBunnies.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\FallingBunnies\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\FallingBunnies\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\FallingBunnies\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Heading\Heading.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Heading\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Heading\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Heading\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Image\BackgroundImage.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Image\Image.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Image\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Image\index.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Image\options.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Image\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Image\Wrapper.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Input\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Input\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Input\Input.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Input\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Layouts\BaseLayout.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Layouts\CardsLayout.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Layouts\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Layouts\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Link\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Link\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Link\Link.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Link\LinkExternal.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Link\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\NotificationDot\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\NotificationDot\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\NotificationDot\NotificationDot.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\NotificationDot\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Overlay\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Overlay\Overlay.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Overlay\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Progress\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Progress\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Progress\Progress.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Progress\ProgressBunnyWrapper.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Progress\StyledProgress.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Progress\themes.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Progress\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Radio\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Radio\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Radio\Radio.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Radio\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Radio\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Skeleton\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Skeleton\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Skeleton\Skeleton.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Skeleton\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Slider\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Slider\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Slider\Slider.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Slider\styles.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Slider\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Spinner\CrosswiseIcon.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Spinner\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Spinner\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Spinner\PanIcon.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Spinner\Spinner.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Spinner\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Stepper\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Stepper\index.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Stepper\Step.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Stepper\Stepper.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Stepper\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Add.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ArrowBack.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ArrowDown.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ArrowDropDown.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ArrowDropUp.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ArrowForward.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ArrowUp.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\AutoRenew.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Binance.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Block.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\BnbUsdtPairToken.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\BunnyCards.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\BunnyPlaceholder.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Calculate.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Cards.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\CardView.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Chart.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Checkmark.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\CheckmarkCircle.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ChevronDown.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ChevronLeft.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ChevronRight.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ChevronUp.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\CircleOutline.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Close.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Cog.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Community.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Copy.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\CrosswiseRound.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Crosswises.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Crown.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Error.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Help.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\History.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Info.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\LaurelLeft.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\LaurelRight.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ListView.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Logo.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\LogoRound.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\MedalBronze.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\MedalGold.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\MedalPurple.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\MedalSilver.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\MedalTeal.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Metamask.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Minus.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\NoProfileAvatar.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\OpenNew.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\PlayCircleOutline.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\PocketWatch.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Prize.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\ProgressBunny.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Refresh.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Remove.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Search.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\SwapVert.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\SyncAlt.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\TeamPlayer.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Testnet.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Ticket.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\TicketRound.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Timer.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\TrophyGold.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Tune.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Verified.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\VisibilityOff.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\VisibilityOn.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\VolumeOff.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\VolumeUp.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Wait.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Warning.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Icons\Won.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\Svg.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Svg\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Table\example\const.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Table\example\header.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Table\hooks.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Table\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Table\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Table\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Table\utils.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\TabMenu\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\TabMenu\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\TabMenu\StyledTab.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\TabMenu\Tab.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\TabMenu\TabMenu.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\TabMenu\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tag\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tag\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tag\StyledTag.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tag\Tag.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tag\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tag\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Text\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Text\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Text\Text.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Text\TooltipText.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Text\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Toggle\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Toggle\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Toggle\StyledToggle.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Toggle\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\components\Toggle\theme.ts
+48 error [debug] resolve config from 'src\components\Toggle\Toggle.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Toggle\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tooltip\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\components\Tooltip\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\index.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useKonamiCheatCode.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useKonamiCheatCode.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useMatchBreakpoints.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useMatchBreakpoints.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useParticleBurst.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useParticleBurst.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useTooltip\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useTooltip\StyledTooltip.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useTooltip\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useTooltip\useTooltip.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\hooks\useTooltip\useTooltip.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\index.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\ResetCSS.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\setupTests.js'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\styled.d.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\testHelpers.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\theme\base.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\theme\colors.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\theme\colors.ts
+48 error [debug] resolve config from 'src\theme\dark.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\theme\index.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\theme\light.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\theme\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\theme\types.ts
+48 error [debug] resolve config from 'src\types\index.d.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\util\getColor.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\util\getExternalLinkProps.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\util\getThemeValue.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\Accordion.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\Avatar.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\CakePrice.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\LangSelector.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\Logo.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\MenuButton.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\MenuEntry.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\MenuLink.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\Panel.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\PanelBody.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\PanelFooter.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\widgets\Menu\components\PanelFooter.tsx
+48 error [debug] resolve config from 'src\widgets\Menu\components\SocialLinks.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\components\ThemeSwitcher.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\widgets\Menu\components\ThemeSwitcher.tsx
+48 error [debug] resolve config from 'src\widgets\Menu\components\UserBlock.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\config.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Farm.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Groups.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Hamburger.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\HamburgerClose.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Home.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Ifo.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\index.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Info.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Language.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Logo.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Moon.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\More.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Nft.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Pool.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Predictions.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Sun.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\TeamBattle.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Telegram.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Ticket.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Trade.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\icons\Twitter.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\index.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Menu\Menu.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\widgets\Menu\Menu.tsx
+48 error [debug] resolve config from 'src\widgets\Menu\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\widgets\Menu\theme.ts
+48 error [debug] resolve config from 'src\widgets\Menu\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] src\widgets\Menu\types.ts
+48 error [debug] resolve config from 'src\widgets\Modal\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Modal\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Modal\Modal.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Modal\ModalContext.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Modal\styles.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Modal\theme.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Modal\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Modal\useModal.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Toast\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Toast\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Toast\Toast.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Toast\ToastContainer.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\Toast\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\AccountModal.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\config.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\ConnectModal.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\CopyToClipboard.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\icons\BinanceChain.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\icons\MathWallet.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\icons\Metamask.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\icons\SafePalWallet.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\icons\TokenPocket.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\icons\TrustWallet.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\icons\WalletConnect.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\index.stories.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\index.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\types.ts'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\useWalletModal.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [debug] resolve config from 'src\widgets\WalletModal\WalletCard.tsx'
+48 error [debug] loaded options `{"printWidth":120}`
+48 error [debug] applied config-precedence (cli-override): {"printWidth":120}
+48 error [warn] Code style issues found in the above file(s). Forgot to run Prettier?
+48 error error Command failed with exit code 1.
+48 error lerna ERR! yarn run format:check exited 1 in 'crosswise-uikit'
+48 error error Command failed with exit code 1.
+48 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+48 error husky > pre-commit hook failed (add --no-verify to bypass)
+48 error     at makeError (D:\tutorial\blockchain\CrossWise\crosswise-toolkit\node_modules\execa\lib\error.js:59:11)
+48 error     at handlePromise (D:\tutorial\blockchain\CrossWise\crosswise-toolkit\node_modules\execa\index.js:114:26)
+48 error     at processTicksAndRejections (node:internal/process/task_queues:94:5)
+48 error     at async Promise.all (index 0)
